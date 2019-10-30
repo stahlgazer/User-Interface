@@ -70,22 +70,32 @@ body{
 	margin: 0 auto;
 }
 
-.navigation { 
-	text-align: center;
+.banner {
+	.right
+	width:30%;
+	display:inline-block;
+	margin: 4% 0 4% 0;
+}
+
+
+.navigation a{ 
+	padding:5% 5%;
+}
+header{
+	text-align:center;
+	font-size:75px;
 }
 
 section {
+	padding:5% 0 5%;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
 
 .info {
-	width:49%;
+	width:49.85%;
 	display:inline-block;
-}
-
-.info p{
-	font-size: 20px;
+	font-size:20px;
 }
 
 .botinfo{
@@ -94,12 +104,25 @@ section {
 	font-size:20px;	
 }
 
-.botinfo p{
-	
-}
-
 .middle-img {
 	width: 100%;
 	margin:3.5% 0;
 }
 
+.contactinfo {
+	padding: 5% 0 0 0;
+}
+
+.phone{
+	margin:2% 0 2% 0;
+}
+
+footer {
+	padding:5%;
+	text-align:center;
+}
+
+.title {
+	display:inline-block;
+	.left
+}
